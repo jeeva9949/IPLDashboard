@@ -1,0 +1,55 @@
+/* Write your CSS here */
+.TeamContainerMatchesTeam {
+  padding: 3rem;
+  font-family: Bree Serif;
+  color: white;
+}
+.RCB {
+  background-image: linear-gradient(to bottom, red, black);
+  height: 100%;
+}
+.KKR {
+  background-image: linear-gradient(to bottom, #522482, black);
+  height: 100%;
+}
+.KXP {
+  background-image: linear-gradient(to bottom, #dd1f2d, black);
+  height: 100%;
+}
+.CSK {
+  background-image: linear-gradient(to bottom, yellow, black);
+  height: 100%;
+}
+.RR {
+  background-image: linear-gradient(to bottom, #074ea2, black);
+  height: 100%;
+}
+.MI {
+  background-image: linear-gradient(to bottom, #004b8d, black);
+  height: 100%;
+}
+.SH {
+  background-image: linear-gradient(to bottom, #fccb11, black);
+  height: 100%;
+}
+.DC {
+  background-image: linear-gradient(to bottom, #2561ae, black);
+  height: 100%;
+}
+.latestMatchheading {
+  color: white;
+}
+.recent-matches-list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-left: 0;
+  margin-top: 25px;
+}
+
+/* @media screen and (max-width: 567px) {
+  .recent-matches-list {
+    display: flex;
+    flex-direction: column;
+  }
+} */

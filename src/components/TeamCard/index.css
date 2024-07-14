@@ -1,0 +1,15 @@
+/* Write your CSS here */
+.teamCARDcontainer {
+  width: 300px;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  background-color: #ffffff33;
+  border-radius: 10px;
+  margin: 10px;
+}
+.teamHeading {
+  color: white;
+  font-size: 1.5rem;
+  padding-left: 1rem;
+}

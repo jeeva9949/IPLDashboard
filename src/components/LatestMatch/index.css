@@ -1,0 +1,28 @@
+/* Write your CSS here */
+.InnerContainerLatestMatch {
+  display: flex;
+  justify-content: space-around;
+  background-color: #1e293b;
+  padding: 20px;
+  border-radius: 20px;
+}
+.firstContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.computingLogoContainer {
+  align-self: center;
+}
+.latest-match-details-label {
+  font-size: 1.5rem;
+}
+
+@media screen and (max-width: 576px) {
+  .InnerContainerLatestMatch {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
